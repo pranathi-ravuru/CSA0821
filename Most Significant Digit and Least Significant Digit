@@ -1,0 +1,8 @@
+num = int(input("Enter a number: "))
+num = abs(num)
+lsd = num % 10
+while num >= 10:
+    num //= 10
+msd = num
+print("Most Significant Digit:", msd)
+print("Least Significant Digit:", lsd)
